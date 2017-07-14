@@ -1,0 +1,34 @@
+//
+//  ZXNPrefixHeader.pch
+//  ZXNPublicBicycle
+//
+//  Created by 张小牛 on 2017/7/13.
+//  Copyright © 2017年 ZXN. All rights reserved.
+//
+
+#ifndef ZXNPrefixHeader_pch
+#define ZXNPrefixHeader_pch
+
+#define boundWidth      [UIScreen mainScreen].bounds.size.width
+#define boundHeight     [UIScreen mainScreen].bounds.size.height
+#define boundTopBarHeight   64
+
+#define ZXNColor(R,G,B,A) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A]
+#define naviColor ZXNColor(21, 107, 176, 1)
+#define lightColor ZXNColor(247, 247, 247, 1)
+#define lightTextColor ZXNColor(221,221,221, 0.5)
+#define blackkColor ZXNColor(51, 51, 51, 1)
+#define textLightColor ZXNColor(153, 153, 153, 1)
+
+#define ZXNWeakSelf(type)   __weak typeof(type) weak##type = type;
+#define ZXNStrongSelf(type) __strong typeof(type) type = weak##type;
+
+#import "ZXNLocationGaoDeManager.h"
+#import "Masonry.h"
+
+#import <AMapFoundationKit/AMapFoundationKit.h>
+#import <MAMapKit/MAMapKit.h>
+#import <AMapNaviKit/AMapNaviKit.h>
+
+
+#endif /* ZXNPrefixHeader_pch */

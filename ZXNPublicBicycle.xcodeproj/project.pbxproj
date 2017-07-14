@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7269FE6F1F1768880064AA72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7269FE6E1F1768880064AA72 /* main.m */; };
+		7269FE721F1768880064AA72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7269FE711F1768880064AA72 /* AppDelegate.m */; };
+		7269FE7A1F1768880064AA72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7269FE791F1768880064AA72 /* Assets.xcassets */; };
+		7269FE7D1F1768880064AA72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7269FE7B1F1768880064AA72 /* LaunchScreen.storyboard */; };
+		7269FEC31F1779B90064AA72 /* ZXNBicycleToNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7269FEAE1F1779B90064AA72 /* ZXNBicycleToNaviController.m */; };
+		7269FEC41F1779B90064AA72 /* ZXNPublicBicycleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7269FEB01F1779B90064AA72 /* ZXNPublicBicycleController.m */; };
+		7269FEC51F1779B90064AA72 /* ZXNRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7269FEB21F1779B90064AA72 /* ZXNRootController.m */; };
+		7269FEC61F1779B90064AA72 /* JSBikeShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7269FEB41F1779B90064AA72 /* JSBikeShowView.m */; };
+		7269FEC71F1779B90064AA72 /* JSCenterAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7269FEB61F1779B90064AA72 /* JSCenterAnnotation.m */; };
+		7269FEC81F1779B90064AA72 /* ZXNLocationGaoDeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7269FEB81F1779B90064AA72 /* ZXNLocationGaoDeManager.m */; };
+		7269FEC91F1779B90064AA72 /* nearBicycle.json in Resources */ = {isa = PBXBuildFile; fileRef = 7269FEBA1F1779B90064AA72 /* nearBicycle.json */; };
+		7269FECA1F1779B90064AA72 /* MoreMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7269FEBE1F1779B90064AA72 /* MoreMenuView.m */; };
+		7269FECB1F1779B90064AA72 /* SelectableOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 7269FEC01F1779B90064AA72 /* SelectableOverlay.m */; };
+		7269FECC1F1779B90064AA72 /* SpeechSynthesizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7269FEC21F1779B90064AA72 /* SpeechSynthesizer.m */; };
+		C3059BDAF12051B685D4DE3C /* libPods-ZXNPublicBicycle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72DE3AA3F7456EA38CDD3258 /* libPods-ZXNPublicBicycle.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B973A946858D045C6E07010 /* Pods-ZXNPublicBicycle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXNPublicBicycle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZXNPublicBicycle/Pods-ZXNPublicBicycle.debug.xcconfig"; sourceTree = "<group>"; };
+		55C2C3972507D76508277006 /* Pods-ZXNPublicBicycle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXNPublicBicycle.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZXNPublicBicycle/Pods-ZXNPublicBicycle.release.xcconfig"; sourceTree = "<group>"; };
+		7269FE6A1F1768880064AA72 /* ZXNPublicBicycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXNPublicBicycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7269FE6E1F1768880064AA72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7269FE701F1768880064AA72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7269FE711F1768880064AA72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7269FE791F1768880064AA72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7269FE7C1F1768880064AA72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7269FE7E1F1768880064AA72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7269FEA21F176BCE0064AA72 /* ZXNPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXNPrefixHeader.pch; sourceTree = "<group>"; };
+		7269FEAD1F1779B90064AA72 /* ZXNBicycleToNaviController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXNBicycleToNaviController.h; sourceTree = "<group>"; };
+		7269FEAE1F1779B90064AA72 /* ZXNBicycleToNaviController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXNBicycleToNaviController.m; sourceTree = "<group>"; };
+		7269FEAF1F1779B90064AA72 /* ZXNPublicBicycleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXNPublicBicycleController.h; sourceTree = "<group>"; };
+		7269FEB01F1779B90064AA72 /* ZXNPublicBicycleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXNPublicBicycleController.m; sourceTree = "<group>"; };
+		7269FEB11F1779B90064AA72 /* ZXNRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXNRootController.h; sourceTree = "<group>"; };
+		7269FEB21F1779B90064AA72 /* ZXNRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXNRootController.m; sourceTree = "<group>"; };
+		7269FEB41F1779B90064AA72 /* JSBikeShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBikeShowView.m; sourceTree = "<group>"; };
+		7269FEB51F1779B90064AA72 /* JSCenterAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCenterAnnotation.h; sourceTree = "<group>"; };
+		7269FEB61F1779B90064AA72 /* JSCenterAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCenterAnnotation.m; sourceTree = "<group>"; };
+		7269FEB71F1779B90064AA72 /* ZXNLocationGaoDeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXNLocationGaoDeManager.h; sourceTree = "<group>"; };
+		7269FEB81F1779B90064AA72 /* ZXNLocationGaoDeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXNLocationGaoDeManager.m; sourceTree = "<group>"; };
+		7269FEBA1F1779B90064AA72 /* nearBicycle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nearBicycle.json; sourceTree = "<group>"; };
+		7269FEBC1F1779B90064AA72 /* JSBikeShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBikeShowView.h; sourceTree = "<group>"; };
+		7269FEBD1F1779B90064AA72 /* MoreMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreMenuView.h; sourceTree = "<group>"; };
+		7269FEBE1F1779B90064AA72 /* MoreMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreMenuView.m; sourceTree = "<group>"; };
+		7269FEBF1F1779B90064AA72 /* SelectableOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectableOverlay.h; sourceTree = "<group>"; };
+		7269FEC01F1779B90064AA72 /* SelectableOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectableOverlay.m; sourceTree = "<group>"; };
+		7269FEC11F1779B90064AA72 /* SpeechSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechSynthesizer.h; sourceTree = "<group>"; };
+		7269FEC21F1779B90064AA72 /* SpeechSynthesizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeechSynthesizer.m; sourceTree = "<group>"; };
+		72DE3AA3F7456EA38CDD3258 /* libPods-ZXNPublicBicycle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZXNPublicBicycle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7269FE671F1768880064AA72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3059BDAF12051B685D4DE3C /* libPods-ZXNPublicBicycle.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7269FE611F1768880064AA72 = {
+			isa = PBXGroup;
+			children = (
+				7269FE6C1F1768880064AA72 /* ZXNPublicBicycle */,
+				7269FE6B1F1768880064AA72 /* Products */,
+				84B7615BF18AA71AFCE1DB68 /* Pods */,
+				96B33C28A0A049D59D4FFE94 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7269FE6B1F1768880064AA72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7269FE6A1F1768880064AA72 /* ZXNPublicBicycle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7269FE6C1F1768880064AA72 /* ZXNPublicBicycle */ = {
+			isa = PBXGroup;
+			children = (
+				7269FEAC1F1779B90064AA72 /* Contrller */,
+				7269FEB31F1779B90064AA72 /* Model */,
+				7269FEB91F1779B90064AA72 /* Source */,
+				7269FEBB1F1779B90064AA72 /* View */,
+				7269FE701F1768880064AA72 /* AppDelegate.h */,
+				7269FE711F1768880064AA72 /* AppDelegate.m */,
+				7269FEA21F176BCE0064AA72 /* ZXNPrefixHeader.pch */,
+				7269FE791F1768880064AA72 /* Assets.xcassets */,
+				7269FE7B1F1768880064AA72 /* LaunchScreen.storyboard */,
+				7269FE7E1F1768880064AA72 /* Info.plist */,
+				7269FE6D1F1768880064AA72 /* Supporting Files */,
+			);
+			path = ZXNPublicBicycle;
+			sourceTree = "<group>";
+		};
+		7269FE6D1F1768880064AA72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7269FE6E1F1768880064AA72 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7269FEAC1F1779B90064AA72 /* Contrller */ = {
+			isa = PBXGroup;
+			children = (
+				7269FEAD1F1779B90064AA72 /* ZXNBicycleToNaviController.h */,
+				7269FEAE1F1779B90064AA72 /* ZXNBicycleToNaviController.m */,
+				7269FEAF1F1779B90064AA72 /* ZXNPublicBicycleController.h */,
+				7269FEB01F1779B90064AA72 /* ZXNPublicBicycleController.m */,
+				7269FEB11F1779B90064AA72 /* ZXNRootController.h */,
+				7269FEB21F1779B90064AA72 /* ZXNRootController.m */,
+			);
+			path = Contrller;
+			sourceTree = "<group>";
+		};
+		7269FEB31F1779B90064AA72 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7269FEB41F1779B90064AA72 /* JSBikeShowView.m */,
+				7269FEB51F1779B90064AA72 /* JSCenterAnnotation.h */,
+				7269FEB61F1779B90064AA72 /* JSCenterAnnotation.m */,
+				7269FEB71F1779B90064AA72 /* ZXNLocationGaoDeManager.h */,
+				7269FEB81F1779B90064AA72 /* ZXNLocationGaoDeManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7269FEB91F1779B90064AA72 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				7269FEBA1F1779B90064AA72 /* nearBicycle.json */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		7269FEBB1F1779B90064AA72 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7269FEBC1F1779B90064AA72 /* JSBikeShowView.h */,
+				7269FEBD1F1779B90064AA72 /* MoreMenuView.h */,
+				7269FEBE1F1779B90064AA72 /* MoreMenuView.m */,
+				7269FEBF1F1779B90064AA72 /* SelectableOverlay.h */,
+				7269FEC01F1779B90064AA72 /* SelectableOverlay.m */,
+				7269FEC11F1779B90064AA72 /* SpeechSynthesizer.h */,
+				7269FEC21F1779B90064AA72 /* SpeechSynthesizer.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84B7615BF18AA71AFCE1DB68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B973A946858D045C6E07010 /* Pods-ZXNPublicBicycle.debug.xcconfig */,
+				55C2C3972507D76508277006 /* Pods-ZXNPublicBicycle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96B33C28A0A049D59D4FFE94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72DE3AA3F7456EA38CDD3258 /* libPods-ZXNPublicBicycle.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7269FE691F1768880064AA72 /* ZXNPublicBicycle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7269FE811F1768880064AA72 /* Build configuration list for PBXNativeTarget "ZXNPublicBicycle" */;
+			buildPhases = (
+				6172BFB70B73334DB77A3B5D /* [CP] Check Pods Manifest.lock */,
+				7269FE661F1768880064AA72 /* Sources */,
+				7269FE671F1768880064AA72 /* Frameworks */,
+				7269FE681F1768880064AA72 /* Resources */,
+				13FF75B1A4804569CC57BEBD /* [CP] Embed Pods Frameworks */,
+				D71169D193CBC00D54AE2BFE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZXNPublicBicycle;
+			productName = ZXNPublicBicycle;
+			productReference = 7269FE6A1F1768880064AA72 /* ZXNPublicBicycle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7269FE621F1768880064AA72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ZXN;
+				TargetAttributes = {
+					7269FE691F1768880064AA72 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7LMNJV8WGS;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 7269FE651F1768880064AA72 /* Build configuration list for PBXProject "ZXNPublicBicycle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7269FE611F1768880064AA72;
+			productRefGroup = 7269FE6B1F1768880064AA72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7269FE691F1768880064AA72 /* ZXNPublicBicycle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7269FE681F1768880064AA72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7269FE7D1F1768880064AA72 /* LaunchScreen.storyboard in Resources */,
+				7269FE7A1F1768880064AA72 /* Assets.xcassets in Resources */,
+				7269FEC91F1779B90064AA72 /* nearBicycle.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13FF75B1A4804569CC57BEBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZXNPublicBicycle/Pods-ZXNPublicBicycle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6172BFB70B73334DB77A3B5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D71169D193CBC00D54AE2BFE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZXNPublicBicycle/Pods-ZXNPublicBicycle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7269FE661F1768880064AA72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7269FEC81F1779B90064AA72 /* ZXNLocationGaoDeManager.m in Sources */,
+				7269FE721F1768880064AA72 /* AppDelegate.m in Sources */,
+				7269FEC71F1779B90064AA72 /* JSCenterAnnotation.m in Sources */,
+				7269FECA1F1779B90064AA72 /* MoreMenuView.m in Sources */,
+				7269FEC51F1779B90064AA72 /* ZXNRootController.m in Sources */,
+				7269FEC41F1779B90064AA72 /* ZXNPublicBicycleController.m in Sources */,
+				7269FECB1F1779B90064AA72 /* SelectableOverlay.m in Sources */,
+				7269FECC1F1779B90064AA72 /* SpeechSynthesizer.m in Sources */,
+				7269FEC61F1779B90064AA72 /* JSBikeShowView.m in Sources */,
+				7269FE6F1F1768880064AA72 /* main.m in Sources */,
+				7269FEC31F1779B90064AA72 /* ZXNBicycleToNaviController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7269FE7B1F1768880064AA72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7269FE7C1F1768880064AA72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7269FE7F1F1768880064AA72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7269FE801F1768880064AA72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7269FE821F1768880064AA72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B973A946858D045C6E07010 /* Pods-ZXNPublicBicycle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7LMNJV8WGS;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZXNPublicBicycle/ZXNPrefixHeader.pch";
+				INFOPLIST_FILE = ZXNPublicBicycle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zhangxiaoniu.OFO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7269FE831F1768880064AA72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55C2C3972507D76508277006 /* Pods-ZXNPublicBicycle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7LMNJV8WGS;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZXNPublicBicycle/ZXNPrefixHeader.pch";
+				INFOPLIST_FILE = ZXNPublicBicycle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zhangxiaoniu.OFO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7269FE651F1768880064AA72 /* Build configuration list for PBXProject "ZXNPublicBicycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7269FE7F1F1768880064AA72 /* Debug */,
+				7269FE801F1768880064AA72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7269FE811F1768880064AA72 /* Build configuration list for PBXNativeTarget "ZXNPublicBicycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7269FE821F1768880064AA72 /* Debug */,
+				7269FE831F1768880064AA72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7269FE621F1768880064AA72 /* Project object */;
+}
